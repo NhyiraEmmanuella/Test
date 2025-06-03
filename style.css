@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.heading {
+    background-color: #000;
+    margin: 0;
+    padding: 1px 2px;
+}
+
+.lead {
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 9px;
+    padding: 0;
+    font-family: Latu;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block-1 {
+    height: 90vh;
+    background-image: url(./tt/pexels-deneen-l-treble-390196-1058401.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    transition: 1s all;
+}
+
+.block-1:hover >.welcome{
+    letter-spacing: 4px;
+}
+
+.welcome {
+    font-size: 4rem;
+    color: white;
+    transition: 1s all;
+}
+
+.welcome-btn {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    padding: 9px 15px;
+    border-radius: 29px;
+    transition: 1.5s all;
+}
+.welcome-btn:hover {
+    background-color: white;
+    color: black;
+}
+/* styles for block-2 */
+.block-2{
+    background-color: rgba(255, 166, 0, 0.877);
+    padding: 5px 13px;
+}
+.title-2{
+    text-align: center;
+    padding: 0 auto;
+    
+}
+.p-2::first-letter{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: blueviolet;
+}
+.p-2{
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: white;
+}
+/* BLOCK-3 */
+.block-3{
+   display: grid;
+   grid-gap: 2px;
+   grid-template-columns: 1fr 3fr ;
+   padding: 5px 9px;
+   
+}
+.card-0,
+.card-1,
+.card-2{
+
+border: 1px, black, solid;
+padding:4px 9px ;
+border-radius: 6px;
+}
+.card-1, .card-2 {
+    margin-left: 6px;
+}
+.card-0_title,
+.card-1_title,
+.card-2_title{
+text-align: center;
+}
